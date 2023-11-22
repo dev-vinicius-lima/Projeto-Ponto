@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    background-image: url(https://tangerino.com.br/blog/wp-content/uploads/2016/06/obrigatoriedade-ponto-eletronico-1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    
+}
+
+h2 {
+    position: relative;
+    bottom: 10px;
+    color: white;
+}
+
+.container-principal {
+    display: flex;
+    background-color: transparent;
+    border-radius: 20px;
+    opacity: .8;
+    height: 500px;
+
+
+}
+
+.lado-esquerdo {
+    display: flex;
+    background-image: linear-gradient(#040D12,#183D3D, #5C8374, #93B1A6);
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 8px 8px 20px;
+    gap: 30px;
+    padding: 20px;
+    margin: auto;
+    
+}
+
+.lado-direito {
+    background-color: #93B1A6;
+    width: 500px;
+    height:500px;
+    border-radius: 8px 20px 20px 8px;
+    
+
+
+}
+
+#ponto {
+    background-color: #183D3D;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 150px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 60px;
+
+}
+#ponto:hover {
+    box-shadow: 0px 0px 8px 3px white;
+    
+}
+
+#tf {
+    background-color: #183D3D;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 150px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 60px;
+
+
+}
+#tf:hover {
+    
+    box-shadow: 0px 0px 8px 3px white;
+}
+#rf {
+    background-color: #183D3D;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 150px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 60px;
+
+
+
+}
+#rf:hover {
+    
+    box-shadow: 0px 0px 8px 3px white;
+}
+
+
+.input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+    background-color: #E8E8E8;
+    border: none;
+}
+.input:focus{
+    background-color: white;
+    color: black;
+}
+
+.lado-direito {
+    display: flex;
+    justify-content:flex-start;
+    font-family: 'Oswald', sans-serif;;
+    padding: 20px;
+    overflow: auto;
+    color: #040D12;
+}
+
+#time {
+ padding: 5px;
+ border-radius: 20px;
+ outline: none;
+ border: none;
+ cursor: pointer;
+ position: relative;
+ bottom: 60px;
+
+}
+
+#data {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 65px;
+}
+
+
+

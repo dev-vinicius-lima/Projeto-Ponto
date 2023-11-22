@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <title>Colaboradores</title>
+</head>
+
+<body>
+    
+    <main class="container-principal">
+        <div class="lado-esquerdo">
+            <h2>Controle de funcionários</h2>
+            <input type="text" class="input" id="input1" placeholder="Digite seu nome" required /><br>
+            
+            <label for="data">
+                <input type="date" name="data" id="data" />
+            </label>
+            <label for="time-entrada">
+                <input type="time" name="time-entrada" id="time" value="08:00" />
+            </label>
+            <label for="time-saida">
+                <input type="time" name="time-saida" id="time" value="18:00" />
+            </label>
+
+            <button type="button" id="ponto">Bater Ponto</button>
+            <button type="button" id="tf">Todos os Funcionários</button>
+            <button type="button" id="rf">Remover Funcionário</button>
+
+
+        </div>
+        <div class="lado-direito">
+            <h3 class="hidden" id="res"></h3>
+        </div>
+
+
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
